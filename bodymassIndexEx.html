@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Body Mass Index (BMI)</title>
+	<script src="bodymassIndexEx.js"></script> 
+</head>
+<body>
+	<h3>Body Mass Index (BMI)</h3>
+
+	<form>
+		<p>
+			<label>Weight: </label> <input type="text" name="weight" id="weight"
+				size="3"> kg
+		</p>
+		<p>
+			<label>Height: </label> <input type="text" name="height" id="height"
+				size="3"> cm &nbsp;&nbsp;&nbsp;
+		</p>
+		<p>
+			<input type="button" id="submit" value="Calculate BMI" onClick="calculateBMI()">
+		</p>
+	</form>
+
+	<div id="answer"></div>
+</body>
+</html>
+
